@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API Tester</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="title">API Tester</h2>
+
+    <div class="input-group">
+      <select id="method" class="method-select">
+        <option>GET</option>
+        <option>POST</option>
+        <option>PUT</option>
+        <option>DELETE</option>
+        <option>PATCH</option>
+      </select>
+
+      <input type="text" id="url" placeholder="Enter API URL" class="url-input">
+    </div>
+
+    <div id="headers" class="section">
+      <div class="section-header">
+        <h3>Headers</h3>
+        <button class="add-header pink-btn">+ Add Header</button>
+      </div>
+      <div id="header-rows">
+        <div class="header-row">
+          <input type="text" placeholder="Key" class="header-key">
+          <input type="text" placeholder="Value" class="header-value">
+          <button class="remove-header pink-btn-outline">-</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="body-section" class="section">
+      <h3>Body</h3>
+      <textarea id="request-body" placeholder='Request body (JSON) e.g., {"key": "value"}'></textarea>
+    </div>
+
+    <button id="send-request" class="pink-btn large-btn">Send Request</button>
+
+    <div id="response" class="section">
+      <div class="section-header">
+        <h3>Response</h3>
+        <div id="status-code" class="status-code"></div>
+      </div>
+      <pre id="response-body"></pre>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

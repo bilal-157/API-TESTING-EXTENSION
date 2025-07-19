@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "API Tester",
+  "version": "1.0",
+  "description": "A Postman-like API testing tool",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "storage",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
