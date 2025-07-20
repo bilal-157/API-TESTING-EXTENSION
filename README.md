@@ -1,7 +1,3 @@
-Here’s a sample `README.md` file you can use for your personal Postman-like Chrome extension project. It includes instructions on how to clone, upload to Chrome, and use the tool on lower-end devices:
-
----
-
 ````markdown
 # ⚡ Personal Postman-Like Chrome Extension
 
