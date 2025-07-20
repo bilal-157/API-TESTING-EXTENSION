@@ -72,14 +72,3 @@ This extension is built with performance in mind — no large dependencies, no l
 Feel free to fork this repo and contribute improvements.
 
 ---
-
-## 📄 License
-
-MIT License
-
-```
-
----
-
-Let me know if you want the markdown customized with your GitHub username/repo link or want to include screenshots!
-```
